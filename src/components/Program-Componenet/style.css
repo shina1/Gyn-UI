@@ -1,0 +1,73 @@
+.programs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+
+.top-text-box{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.top-text{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.block-text{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.program-card-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+}
+.program-card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    padding: 2rem;
+    gap: 1rem;
+    color: #fff;
+    justify-content: space-between;
+}
+.program-card:hover{
+    background: var(--planCard);
+    cursor: pointer;
+    transform: translateY(-2%);
+    transition: ease 600ms;
+}
+.program-card>:nth-child(1){
+   width: 2rem; 
+   height: 2rem;
+   fill: #fff;
+}
+.program-card>:nth-child(2){
+   font-size: 1.3rem; 
+   font-weight: bold;
+}
+.program-card>:nth-child(3){
+    font-size: 0.9rem; 
+    line-height: 25px;
+ }
+ .program-card>:nth-child(4){
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+ }
+
+ .program-card>:nth-child(4)>img{
+    width: 1rem;
+ }
